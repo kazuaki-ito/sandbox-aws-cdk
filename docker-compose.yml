@@ -1,0 +1,18 @@
+version: '3'
+services:
+  cdk:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: sandbox-aws-cdk
+    volumes:
+      - aws_settings:/root/.aws
+    tty: true
+#    environment:
+#      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+#      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+#      AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+#      AWS_DEFAULT_OUTPUT: ${AWS_DEFAULT_OUTPUT}
+volumes:
+  aws_settings:
+    driver: local
