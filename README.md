@@ -4,8 +4,13 @@
 
 * Docker
 * docker-compose
+* git
 
 ## 環境の起動
+
+```
+git clone git@github.com:kazuaki-ito/sandbox-aws-cdk.git
+```
 
 ```shell script
 # 環境起動
