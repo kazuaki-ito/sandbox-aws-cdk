@@ -7,3 +7,7 @@ RUN npm install -g aws-cdk
 
 RUN pip3 install --upgrade aws-cdk.core
 RUN pip3 install awscli
+
+RUN mkdir /root/app
+
+WORKDIR /root/app

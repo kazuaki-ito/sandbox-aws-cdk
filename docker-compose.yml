@@ -7,6 +7,7 @@ services:
     container_name: sandbox-aws-cdk
     volumes:
       - aws_settings:/root/.aws
+      - .:/root/app
     tty: true
 volumes:
   aws_settings:
