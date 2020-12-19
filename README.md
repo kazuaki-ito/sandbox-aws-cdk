@@ -104,6 +104,7 @@ export class PracticeStack extends cdk.Stack {
 }
 ```
 
+※コンテナで起動したbash上での作業(practiceディレクトリ)
 ```shell script
 $ # appをビルド
 $ yarn build
@@ -117,6 +118,7 @@ $ cdk deploy
 $ # 成功すればAWS コンソール上からs3 のバケットが作成されていることが確認できる
 ```
 
+※コンテナで起動したbash上での作業(practiceディレクトリ)
 ```shell script
 
 $ # 後片付け(作成したバケット削除) ※バケットの中が空じゃないと消せないので注意
