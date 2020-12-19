@@ -1,11 +1,17 @@
 # AWS-CDKのSandbox環境 (2020年12月時点)
 
 ## 環境準備
-### 1. 環境要件
+### 1. 環境要件 & 前提知識
 
-* Docker
-* docker-compose
-* git
+* 環境要件
+  * Docker
+  * docker-compose
+  * git
+* 前提知識
+  * docker-composeが使えること
+  * gitが使えること
+  * aws s3が何のサービスか知っていること
+  * aws コンソール(web)の最低限の使い方がわかること
 
 ### 2. 事前に準備しておくこと
 
@@ -43,7 +49,7 @@ Default output format [None]: json
 * 参考
   * https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-configure-quickstart.html
 
-## CDK事始め(ここからプラクティス)
+## CDK(TypeScript版)事始め(ここからプラクティス)
 
 ### 1. 環境の起動
 
