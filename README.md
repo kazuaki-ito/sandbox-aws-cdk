@@ -61,7 +61,7 @@ $ docker-compose exec cdk bash
 
 ### 2. cdk appを作成する
 
-※コンテナで起動したbash上での作業(practiceディレクトリ)
+※コンテナで起動したbash上での作業
 
 ```shell script
 $ # 作業ディレクトリを作成
