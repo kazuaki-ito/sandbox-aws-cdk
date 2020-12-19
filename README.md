@@ -119,11 +119,6 @@ $ # 成功すればAWS コンソール上からs3 のバケットが作成され
 
 ```shell script
 
-$ # スタックの確認
-$ cdk ls
-
-
-
 $ # 後片付け(作成したバケット削除) ※バケットの中が空じゃないと消せないので注意
 $ cdk destroy
 Are you sure you want to delete: PracticeStack (y/n)? y
