@@ -1,5 +1,12 @@
 # AWS-CDKのSandbox環境 (2020年12月時点)
 
+## はじめに
+
+cdk + typescript でs3を作成するチュートリアルを含むSandbox環境です。
+
+cdk、aws-cliを動かす環境はdockerで用意しました。
+
+
 ## 環境準備
 ### 1. 環境要件 & 前提知識
 
