@@ -2,7 +2,7 @@
 
 ## はじめに
 
-cdk + typescript でs3を作成するチュートリアルを含むSandbox環境です。
+cdk + typescript でs3のバケットを作成するプラクティスを含むSandbox環境です。
 
 cdk、aws-cliを動かす環境はdockerで用意しました。
 
